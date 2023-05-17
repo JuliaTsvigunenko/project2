@@ -1,29 +1,38 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-<body>
-    <font color="#0000ff">
-        <h1 align="center"><b>Программное обеспечение компьютера</b></h1>
-    </font>
-    <hr size="3" width="1020" align="center">
-    <h2><ol type="1">
-        <li>Прикладные программы</li>
-        <h4>
-            <ul>
-                <li type="square">Текстовые редакторы:</li>
-                <li type="square">Графические редакторы:</li>
-                <li type="square">Электронные таблицы:</li>
-                <li type="square">Системы управления базами данных:</li>
-            </ul> 
-        </h4>
-        <li>Системы программирования</li>
-        <li>Системные программы</li>
-    </ol></h2>
-    
+<HTML>
+    <HEAD>
+    <TITLE>Анкета</title>
+    </head>
+    <BODY>
+    <FORM>
+    Пожалуйста, введите Ваше имя: <br>
+    <INPUT TYPE="text" NAME="name" SIZE=30><br>
+    e-mail: <br>
+    <INPUT TYPE="text" NAME="e-mail" size=30>
+    <br>
+    Укажите, к какой группе пользователей Вы себя относите: <br>
+<INPUT TYPE="radio" Name="group" VALUE="schoolboy">учащийся<br>
+<INPUT TYPE="radio" Name="group" VALUE="schoolboy">студент<br>
+<INPUT TYPE="radio" Name="group" VALUE="schoolboy">учитель<br>
+Какие из сервисов Интернета Вы используете наиболее часто:<br>
+<INPUT TYPE="checkbox" NAME="group" VALUE="www">
+WWW<br>
+<INPUT TYPE="checkbox" NAME="group" VALUE="e-mail">
+e-mail<br>
+<INPUT TYPE="checkbox" NAME="group" VALUE="ftp">
+FTP<br>
+<br><br>
+<SELECT NAME="browsers">
+<OPTION SELECTED>Internet Explorer
+<OPTION>Netscape Navigator
+<OPTION>Opera
+<OPTION>Neo Planet
+</select>
+<br><br>
+Какую еще информацию Вы хотели бы видеть на нашем сайте?<br>
+<TEXTAREA NAME="resume" ROWS=4 COLS=30></textarea>
+<br><br><br>
+<INPUT TYPE="submit" VALUE="Отправить">
+<INPUT TYPE="reset" VALUE="Очистить">
+</form>
 </body>
 </html>
